@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    color: #aaa;
+    background-color: #131315;
+    margin: 0;
+    min-height: 1080px;
+}
+
+.header {
+    height: 4rem;
+
+    border-bottom: 1px solid #747474;
+}
+
+.logo {
+    height: 100%;
+    width: max(20%, 16rem);
+    display: grid;
+    justify-content: end;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.morelogothanlogo {
+    height: 100%;
+    width: 14rem;
+    grid-auto-flow: column;
+    display: grid;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.logo img {
+    height: 2rem;
+    border-radius: 50%;
+    padding: 0.25rem;
+}
+
+.logoname {
+    text-align: left;
+}
+
+.menu {
+    height: 100%;
+    width: max(20%, 16rem);
+    border-right: 1px solid #747474;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+
+    display: grid;
+    justify-content: end;
+}
+
+.menu-el {
+    margin: 0.25rem;
+    padding: 0.25rem;
+    padding-left: 0.75rem;
+    border-radius: 0.75rem;
+    cursor: pointer;
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}
+
+.menu-el:hover {
+    background-color: #383838;
+    color: #ccc;
+}
+
+.t0 {
+    height: 1.5rem;
+    width: 14rem;
+}
